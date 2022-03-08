@@ -401,6 +401,16 @@ footer {
     width: 95%;
   }
 
+  .cont-expert {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .n-expert {
+    margin-bottom: 10px;
+  }
+
   .social-media {
     width: 100%;
   }
