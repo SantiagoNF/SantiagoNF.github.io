@@ -66,8 +66,8 @@ header {
   height: 100%;
   background-image: linear-gradient(
     to right,
-    rgba(36, 57, 73) 0%,
-    rgb(81, 127, 164) 100%
+    rgba(36, 57, 73, 0.7) 0%,
+    rgb(81, 127, 164, 0.7) 100%
   );
   display: flex;
   flex-direction: column;
