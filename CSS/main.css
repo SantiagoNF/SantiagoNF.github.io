@@ -294,12 +294,10 @@ footer {
   margin-bottom: 15px;
 }
 
-section.emailsect {
+.emailsect {
   height: 38vw;
   width: 100vw;
   display: flex;
-  align-items: right;
-  justify-content: right;
   flex-direction: column;
 }
 
@@ -307,11 +305,15 @@ section.emailsect {
   color: rgb(251, 216, 115);
   padding: 5px;
   border-radius: 9px;
+  text-align: center;
 }
 
 .form-group {
-  width: 50%;
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
   margin-bottom: 5px;
+  text-align: left;
   font-size: 20px;
 }
 
@@ -390,8 +392,7 @@ button[type="submit"]:hover {
 .social-media {
   margin-bottom: 10px;
   display: inline-block;
-  justify-content: center;
-  position: static;
+  text-align: right;
 }
 
 .social-media-icon {
